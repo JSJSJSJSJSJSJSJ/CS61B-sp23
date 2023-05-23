@@ -1,7 +1,7 @@
 package aoa.guessers;
 
-import java.util.Scanner;
 import java.util.List;
+import java.util.Scanner;
 
 public class ConsoleGuesser implements Guesser {
     private Scanner console;

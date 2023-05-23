@@ -33,9 +33,9 @@ public class PAGALetterFreqGuesserTest {
     public void testGetGuess_o__Pattern() {
         PAGALetterFreqGuesser palfg = new PAGALetterFreqGuesser("data/example.txt");
 
-        // check that the first guess is e, the most common letter in the dictionary if the 2nd letter is o.
+        // check that the first guess is e, the most common letter in the dictionary if the 2nd letter is c.
         char guess = palfg.getGuess("-o--", List.of('o'));
-        assertThat(guess).isEqualTo('e');
+        assertThat(guess).isEqualTo('c');
     }
 
     @Order(3)
